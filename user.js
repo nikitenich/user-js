@@ -88,3 +88,8 @@ user_pref("media.autoplay.block-webaudio", true);
 
 // бесит, когда по отпусканию клавиши нажимается пункт меню
 user_pref("ui.context_menus.after_mouseup", true);
+
+// Отключение быстрого поиска по странице, потому что он конфликтует с расширением Web Search Navigator при использовании vim-like навигации
+user_pref("accessibility.typeaheadfind.manual", false);
+user_pref("accessibility.typeaheadfind", false);
+user_pref("accessibility.typeaheadfind.autostart", false);
